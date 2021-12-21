@@ -1,8 +1,51 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
 }
 
-a {
-  color: #00B7FF;
+
+footer{
+  margin-top: 15vh;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  background-image: url('../images/hero.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-y: 80px;
+  height: 50vh;
+
+}
+
+.innerheader h1,p{
+  color: white;
+
+}
+
+.innerheader{
+  background-color: black;
+  padding: 2%;
+  border-radius: 20px;
+  opacity: 80%;
+}
+
+.card-text{
+  color:black
+}
+
+.card{
+  padding: 1%;
+}
+
+.center{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
